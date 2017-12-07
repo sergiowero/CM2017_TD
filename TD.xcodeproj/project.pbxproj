@@ -28,6 +28,9 @@
 		D15DF4B91FCFA46900AA9E37 /* cellComponents.xib in Resources */ = {isa = PBXBuildFile; fileRef = D15DF4B71FCFA46900AA9E37 /* cellComponents.xib */; };
 		D17074FD1FCFA61C0072459A /* Artificial-Intelligence.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D17074FC1FCFA61C0072459A /* Artificial-Intelligence.jpg */; };
 		F4E6D5C71FD8C57E0049F42E /* ic_keyboard_arrow_left_white.png in Resources */ = {isa = PBXBuildFile; fileRef = F4E6D5C41FD8C57D0049F42E /* ic_keyboard_arrow_left_white.png */; };
+		F4E6D5CC1FD8D63E0049F42E /* comunidad_video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = F4E6D5CB1FD8D63E0049F42E /* comunidad_video.mp4 */; };
+		F4E6D5D41FD8D7660049F42E /* InformationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4E6D5D11FD8D7660049F42E /* InformationViewController.m */; };
+		F4E6D5D51FD8D7660049F42E /* TutorialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4E6D5D31FD8D7660049F42E /* TutorialViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -61,6 +64,11 @@
 		D15DF4B71FCFA46900AA9E37 /* cellComponents.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = cellComponents.xib; sourceTree = "<group>"; };
 		D17074FC1FCFA61C0072459A /* Artificial-Intelligence.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Artificial-Intelligence.jpg"; sourceTree = "<group>"; };
 		F4E6D5C41FD8C57D0049F42E /* ic_keyboard_arrow_left_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_keyboard_arrow_left_white.png; sourceTree = "<group>"; };
+		F4E6D5CB1FD8D63E0049F42E /* comunidad_video.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = comunidad_video.mp4; path = TD/comunidad_video.mp4; sourceTree = SOURCE_ROOT; };
+		F4E6D5D01FD8D7660049F42E /* InformationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InformationViewController.h; sourceTree = "<group>"; };
+		F4E6D5D11FD8D7660049F42E /* InformationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InformationViewController.m; sourceTree = "<group>"; };
+		F4E6D5D21FD8D7660049F42E /* TutorialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TutorialViewController.h; sourceTree = "<group>"; };
+		F4E6D5D31FD8D7660049F42E /* TutorialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TutorialViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +101,8 @@
 		D15DF48F1FCF9DE600AA9E37 /* TD */ = {
 			isa = PBXGroup;
 			children = (
+				F4E6D5CF1FD8D7660049F42E /* Tutorial */,
+				F4E6D5CA1FD8D62E0049F42E /* Video */,
 				F4E6D5BC1FD8C44A0049F42E /* Icons */,
 				D17074F21FCFA5ED0072459A /* Img */,
 				D15DF4B41FCFA41600AA9E37 /* Cells */,
@@ -166,6 +176,25 @@
 			path = Icons;
 			sourceTree = "<group>";
 		};
+		F4E6D5CA1FD8D62E0049F42E /* Video */ = {
+			isa = PBXGroup;
+			children = (
+				F4E6D5CB1FD8D63E0049F42E /* comunidad_video.mp4 */,
+			);
+			path = Video;
+			sourceTree = "<group>";
+		};
+		F4E6D5CF1FD8D7660049F42E /* Tutorial */ = {
+			isa = PBXGroup;
+			children = (
+				F4E6D5D01FD8D7660049F42E /* InformationViewController.h */,
+				F4E6D5D11FD8D7660049F42E /* InformationViewController.m */,
+				F4E6D5D21FD8D7660049F42E /* TutorialViewController.h */,
+				F4E6D5D31FD8D7660049F42E /* TutorialViewController.m */,
+			);
+			path = Tutorial;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -232,6 +261,7 @@
 				D15DF4B91FCFA46900AA9E37 /* cellComponents.xib in Resources */,
 				D15DF49D1FCF9DE600AA9E37 /* Assets.xcassets in Resources */,
 				2CB0B1711FD4F50700027E23 /* redessociales.jpg in Resources */,
+				F4E6D5CC1FD8D63E0049F42E /* comunidad_video.mp4 in Resources */,
 				2CB0B1731FD4F50700027E23 /* bigdata.jpg in Resources */,
 				2CB0B1741FD4F50700027E23 /* drones.png in Resources */,
 				2CB0B1761FD4F50700027E23 /* IoT.jpg in Resources */,
@@ -251,10 +281,12 @@
 				D15DF4951FCF9DE600AA9E37 /* Components.m in Sources */,
 				7EA477301FD1229200B9005D /* ComponentsDetails.m in Sources */,
 				D15DF4921FCF9DE600AA9E37 /* AppDelegate.m in Sources */,
+				F4E6D5D41FD8D7660049F42E /* InformationViewController.m in Sources */,
 				D15DF4B01FCFA1B900AA9E37 /* Funding.m in Sources */,
 				D15DF4A31FCF9DE600AA9E37 /* main.m in Sources */,
 				D15DF49B1FCF9DE600AA9E37 /* TD.xcdatamodeld in Sources */,
 				D15DF4B31FCFA1D000AA9E37 /* Register.m in Sources */,
+				F4E6D5D51FD8D7660049F42E /* TutorialViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
