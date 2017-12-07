@@ -53,6 +53,7 @@
 		BE8780481FD8E004003B7CF0 /* Register.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Register.m; sourceTree = "<group>"; };
 		BE87804A1FD8E057003B7CF0 /* WebServices.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebServices.m; sourceTree = "<group>"; };
 		BE87804B1FD8E057003B7CF0 /* WebServices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebServices.h; sourceTree = "<group>"; };
+		BEDBB1E21FD8E65E008E0FBC /* ic_dashboard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_dashboard.png; sourceTree = "<group>"; };
 		D15DF48D1FCF9DE600AA9E37 /* TD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TD.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D15DF4901FCF9DE600AA9E37 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D15DF4911FCF9DE600AA9E37 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -203,6 +204,7 @@
 		F4E6D5BC1FD8C44A0049F42E /* Icons */ = {
 			isa = PBXGroup;
 			children = (
+				BEDBB1E21FD8E65E008E0FBC /* ic_dashboard.png */,
 				F4E6D5C41FD8C57D0049F42E /* ic_keyboard_arrow_left_white.png */,
 			);
 			path = Icons;
