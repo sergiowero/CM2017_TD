@@ -26,6 +26,9 @@ int idx=0;
     
     [self initController];
     
+    [self.navigationController.navigationBar
+     setTitleTextAttributes:@{NSForegroundColorAttributeName : [UIColor whiteColor]}];
+
 }
 
 - (void)initController {
@@ -130,17 +133,20 @@ int idx=0;
 //-------------------------------------------------------------------------------
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     idx=(int)indexPath.row;
-    NSLog(@"==>didSelectRowAtIndexPath %li",(long)indexPath.row);
-    
+    //NSLog(@"==>didSelectRowAtIndexPath %li",(long)indexPath.row);
+
     [self performSegueWithIdentifier:@"segueComponents" sender:self];
+    
 }
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
-    NSLog(@"_EDGE_ prepareForSegue... ");
+    //NSLog(@"_EDGE_ prepareForSegue... ");
     ComponentsDetails *cd = [segue destinationViewController];
     ComponentsObject *comp = [_listComp objectAtIndex:idx];
     
     cd.componentsObject=comp;
+    
+    
 }
 
 @end

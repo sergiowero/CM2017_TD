@@ -23,10 +23,12 @@
     [self initController];
     
     [self.navigationController setNavigationBarHidden:YES];
+    
 }
 
 - (void)initController {
-    NSLog(@"Init with  %@", componentsObject.details);
+    
+     //NSLog(@"Init with  %@", componentsObject.details);
     _imageMain.image = componentsObject.image;
     _lblName.text = componentsObject.name;
     _textViewDetails.text = componentsObject.details;
@@ -37,7 +39,10 @@
 }
 
 - (IBAction)backButtonPress:(id)sender {
+    
     [self.navigationController popViewControllerAnimated:YES];
+    [self.navigationController setNavigationBarHidden:NO];
+
 }
 
 
