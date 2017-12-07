@@ -28,7 +28,7 @@
             </objects>
             <point key="canvasLocation" x="45.625" y="-417.98666666666662"/>
         </scene>
-        <!--Componentes de la Transformacion Digital-->
+        <!--Componentes-->
         <scene sceneID="hu3-3b-IdF">
             <objects>
                 <viewController storyboardIdentifier="Components" id="juQ-CF-dCW" customClass="Components" sceneMemberID="viewController">
@@ -48,7 +48,7 @@
                         </subviews>
                         <color key="backgroundColor" red="0.1951132988" green="0.7020249542" blue="0.82907626300000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Componentes de la Transformacion Digital" id="I0H-p5-7kC"/>
+                    <navigationItem key="navigationItem" title="Componentes" id="I0H-p5-7kC"/>
                     <size key="freeformSize" width="414" height="736"/>
                     <connections>
                         <outlet property="tblMain" destination="vWr-5L-b6c" id="AhS-6V-cyF"/>
