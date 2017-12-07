@@ -41,14 +41,14 @@
     self.txtUser.text = @"";
     self.txtEmail.text = @"";
     self.txtPhone.text = @"";
-    self.lblMessage.text = @"SUCCESS";
-    self.lblMessage.backgroundColor = [UIColor greenColor];
+    self.lblMessage.text = @"REGISTRO EXITOSO";
+    //self.lblMessage.backgroundColor = [UIColor greenColor];
 }
 
 - (void)registerFailure:(id)result{
     NSLog(@"registerFailure:");
-    self.lblMessage.text = @"ERROR";
-    self.lblMessage.backgroundColor = [UIColor redColor];
+    self.lblMessage.text = @"ERROR AL REGISTRARSE";
+    //self.lblMessage.backgroundColor = [UIColor redColor];
 }
 
 
